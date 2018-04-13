@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+
+.sectionOne{
+    width: 100%;
+    height: 100vh;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 72px;
+    background-color: #330033;
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    z-index: 99;
+    cursor: default;
+    position:relative;
+}
+
+.navbar-brand{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 32px;
+    text-align: center;
+    margin: auto;
+    cursor: default;
+}
+
+.Icon{
+    z-index: 2;
+    padding: 0px 10px;
+}
+
+.Burger{
+    float: left;
+}
+.dropNav {
+    height: 72px;
+    width: 100%; 
+    z-index: 0; 
+    top: 72px; 
+    left: 0;
+    background-color: #330033;
+    overflow-x: hidden;  
+    transition: 0.5s; 
+    position: absolute;
+}
+.carousel{
+/*
+    width: 100%;*/
+   
+    height: 100%;
+    z-index: -1
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-indicators{
+    bottom: 0;
+    z-index: 1;
+}
+
+#sectionTwo{
+    background-image: 
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#342535+0,403032+100 */
+    background: #342535; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #342535 0%, #403032 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #342535 0%,#403032 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #342535 0%,#403032 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#342535', endColorstr='#403032',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    position: absolute;
+}
+
+.Typeface{
+    display: grid;
+    grid-template-rows: auto;
+    justify-items:center ;
+    align-items: center;
+}
+#TypeFace{
+    position: absolute;
+}
+
